@@ -18,4 +18,4 @@ app.get("/", (req, res) => {
 app.use((req, res, next) => {
      res.send("page not found")
 })
-module.exports = app;
+module.exports = {app};
